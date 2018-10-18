@@ -12,3 +12,4 @@ list1 = list(set([random.choice(fruits) for i in range(6)]))            # Пер
 list2 = list(set([random.choice(fruits) for i in range(6)]))            # Второй случайныый список фруктов
 list3 = [i for i in list1 if i in list2]                                # Список совпадений из первого и второго списков
 print ("Первый список:     {}\nВторой список:     {}\nСписок совпадений: {}".format(list1, list2, list3))
+#

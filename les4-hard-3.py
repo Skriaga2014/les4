@@ -42,7 +42,7 @@ for i in list:
         if i != n: print(i, n, "Бьются? -", impact(i,n))
 
 
-
+#
 
 
 

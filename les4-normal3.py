@@ -56,3 +56,4 @@ max_long = max(len(i) for i in re.findall("[0]+|[1]+|[2]+|[3]+|[4]+|[5]+|[6]+|[7
 www = [i for i in re.findall("[0]+|[1]+|[2]+|[3]+|[4]+|[5]+|[6]+|[7]+|[8]+|[9]+", ch2) if len(i) == max_long]
 print ("Вариант 3: Самые длинные комбинации цифр:",sorted(set(www)))
 
+#

@@ -59,3 +59,5 @@ for i in range(len(n) - 4): summ.append((sum([int(m) for m in n[i:i+5]])))
 print("Последовательность:", n[summ.index(max(summ)):summ.index(max(summ))+5])
 print("Сумма:             ", max(summ))
 print("Смещение:          ", summ.index(max(summ)))
+
+#
